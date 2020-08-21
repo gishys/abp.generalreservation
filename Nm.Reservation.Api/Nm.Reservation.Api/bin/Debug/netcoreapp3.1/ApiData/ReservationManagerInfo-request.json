@@ -1,0 +1,44 @@
+{
+  "Name": "包头市不动产登记中心预约登记",
+  "OpenDays": 7,
+  "ConditionCreateDtos": [
+    {
+      "ItemName": "办事大厅地点",
+      "ItemValue": "包头市不动产登记大厅",
+      "ReservationConditions": [
+        {
+          "ItemName": "预约时间",
+          "ItemValue": "下午",
+          "RCType": 0,
+          "ReservationPeriods": [
+
+            {
+              "StartTime": "2020-07-17 15:00",
+              "EndTime": "2020-07-17 18:00",
+              "Name": "下午"
+            }
+          ],
+          "ReservationConditions": [
+            {
+              "ItemName": "登记大类名称",
+              "ItemValue": "转移登记"
+            }
+          ]
+        },
+        {
+          "ItemName": "预约时间",
+          "ItemValue": "上午",
+          "RCType": 0,
+          "ReservationPeriods": [
+
+            {
+              "StartTime": "2020-07-17 8:00",
+              "EndTime": "2020-07-17 12:00",
+              "Name": "上午"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200717101552_createinit.cs" />
+    <Compile Remove="Migrations\20200717101552_createinit.Designer.cs" />
+    <Compile Remove="Migrations\20200717101700_createinit.cs" />
+    <Compile Remove="Migrations\20200717101700_createinit.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.6">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Nm.Reservation.EntityFrameworkCore\Nm.Reservation.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+
+</Project>
